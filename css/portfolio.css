@@ -41,7 +41,7 @@ h1:hover {
 /* Styling for portfolio title text */
 .white-text {
     color: #fff; 
-    padding-top: 10vh;
+    padding-top: 20vh;
 }
 
 /* Paragraph elements */
@@ -140,7 +140,7 @@ footer {
     padding: .75vw 1vw; 
     text-decoration: none; 
     font-family: "Optima", sans-serif; 
-    font-size: 1.5vw; 
+    font-size: 1.0vw; 
     text-align: center; 
     position: relative; 
     -webkit-animation: moveNavText 5.75s; 
@@ -178,15 +178,16 @@ footer {
 /***** VIDEO STYLING *****/
 
 #Typing_Video {
-    position: fixed; 
+    position: fixed;
+    object-fit: cover;
     right: 0; 
     bottom: 0; 
     min-width: 100%; 
     z-index: -1; 
 }
 
-/* Screens that are 576px and smaller will not display the background video */
-@media screen and (max-width: 576px) {
+/* Screens that are 400px and smaller will not display the background video */
+@media screen and (max-width: 400px) {
     #Typing_Video {
         display: none;
     }
